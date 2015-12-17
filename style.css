@@ -1,23 +1,49 @@
 h1{
-  color:white;
-  font-size:100px;
-  padding:none;
-  border: none;
+  color:black;
+  font-size:85px;
+  padding:15px;
+  margin:0px;
   text-align: center;
-  background-color: black;
-  height:120px;
-  width:1000px;
+  background-color: white;
+  height:115px;
+  width: fill;
 }
 
-#test1 {
+h2{
+  color:white;
+  text-align: center;
+  font-size: 35px;
+}
+
+p{
+  margin:0px;
+  padding:5px;
+  font-size:25px;
+  color:white;
+  text-align:center;
+}
+
+#test1{
   background-color:gray;
-  height:1000px;
-  width:175px;
+  height:900px;
+  padding-left: 10px;
+  width:150px;
   font-size:50px;
   float:left;
 }
 
+#space {
+  width:300px;
+  font-size: 15px;
+  float:center;
+  text-align: center;
+
+}
+
 body{
+  padding:0px;
+  margin:0px;
+  height:100%;
   background-color: black;
   font-family: helvetica, arial, sans-serif;
 }
@@ -26,6 +52,16 @@ a{
   color:white;
 }
 
+#footer{
+  background-color:white;
+  font-size:15px;
+  color:black;
+  height:40px;
+  position: fixed;
+  bottom: 0;
+}
+
+}
 <!--
 span is an inline attribute
 #blah are an id attributes font color
