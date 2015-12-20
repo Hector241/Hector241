@@ -1,47 +1,48 @@
 h1{
   color:black;
   font-size:85px;
-  padding:15px;
+  padding:10px;
   margin:0px;
   text-align: center;
   background-color: white;
-  height:115px;
-  width: fill;
+  height:auto;
 }
 
 h2{
+  position: absolute;
+  top:15%;
+  right:40%;
+  width:auto;
   color:white;
   text-align: center;
-  font-size: 35px;
+  font-size: 40px;
 }
 
 p{
-  margin:0px;
-  padding:5px;
   font-size:25px;
-  color:white;
   text-align:center;
 }
 
-#test1{
+.nav{
+  height: 750px;
+  width:auto;
   background-color:gray;
-  height:900px;
   padding-left: 10px;
   width:150px;
-  font-size:50px;
+  font-size:40px;
   float:left;
 }
 
-#space {
-  width:300px;
-  font-size: 15px;
-  float:center;
+.space {
+  margin-top: 10%;
+  margin-right: 13%;
   text-align: center;
-
+  font-size:45px;
 }
 
 body{
   padding:0px;
+  color:white;
   margin:0px;
   height:100%;
   background-color: black;
@@ -52,15 +53,19 @@ a{
   color:white;
 }
 
-#footer{
-  background-color:white;
-  font-size:15px;
-  color:black;
-  height:40px;
-  position: fixed;
-  bottom: 0;
-}
 
+.footer{
+  position: absolute;
+  left:32%;
+  top:100%;
+  color:white;
+  text-align:center;
+  }
+
+.please{
+  top:20%;
+  left:30%;
+  position:absolute;
 }
 <!--
 span is an inline attribute
