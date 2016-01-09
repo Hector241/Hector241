@@ -1,27 +1,67 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>
-      cool
-    </title>
-    <link rel="stylesheet" type="text/css" href="/style.css">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title>
+    cool
+  </title>
+  <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body class="cool">
 
-<body>
-  <h1>Late Nights At Code & And Theory
+  <h1>
+    Learning To Code
   </h1>
 
-<div class="nav">
-  <br>
-    <a href="/">
-      Home
-    </a>
-  <br>
-  <br>
-    <a href="about">
-      About
-    </a>
-</div>
+  <div class="nav">
+    <table style="width:100%">
+      <th>
+        <a href="/">
+          <img src="data:image/png;base64,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"
+          style="width:55px;height:60px;"
+          >
+        </a>
+      </th>
+      <th>
+        <a href="Mlist.html">
+          <img src="http://westvillageuptownlivingblog.com/files/2014/04/wpid-14.png"
+          style="width:60px;height:60px;"
+          >
+      </th>
+      <th>
+         <a href="about">
+           About
+        </a>
+      </th>
+    </table>
+  </div>
+
+  <div class="space">
+    <h2>
+      So Far
+    </h2>
+
+    <p>
+      The Css box model is 4 boxes within each other with all of them
+      having different functions. Content is the box that holds the text
+      and images. Padding is the space between the content and the
+      border which is transparent, the border is self explanatory. Margin
+      is the outside spade of the border which is also transparent.
+      <div class="boxmodel">
+        <image  src="https://www.washington.edu/accesscomputing/webd2/student/unit3/images/boxmodel.gif">
+      </div>
+    </p>
+
+    <p>
+      The most important part of css is positioning. There are 6 different
+      <br>types that you can choose from static, relative, fixed, absolute,
+      <br>initial, and inherit. Static goes with the flow of the page and is
+      <br>not affected by any attributes. Relative position would go where it
+      <br> normaly would and you can add attributes to it such as left/right etc.
+      <br>Fixed position will stay on the same spot on the page no matter what.
+      <br>absolute position can be place where ever you want it on the page.
+    </p>
+  </div>
 
 </body>
 

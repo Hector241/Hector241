@@ -1,18 +1,20 @@
 h1{
   color:black;
-  font-size:85px;
+  font-size:55px;
   padding:10px;
   margin:0px;
   text-align: center;
   background-color: white;
   height:auto;
+  right:0%;
+  left:0%;
 }
 
 h2{
-  position: absolute;
-  top:15%;
-  right:40%;
-  width:auto;
+  position: relative;
+  top:0%;
+  right:0%;
+  height:auto;
   color:white;
   text-align: center;
   font-size: 40px;
@@ -24,49 +26,66 @@ p{
 }
 
 .nav{
-  height: 750px;
-  width:auto;
+  height: 70px;
   background-color:gray;
-  padding-left: 10px;
-  width:150px;
+  padding-top:5px;
+  width:auto;
   font-size:40px;
-  float:left;
+  z-index: 1;
 }
 
 .space {
-  margin-top: 10%;
-  margin-right: 13%;
+  margin-top:0%;
+  margin-left:0%;
+  margin-right:0%;
+  width:auto;
   text-align: center;
   font-size:45px;
+}
+
+.cool .space {
+  width: 800px;
+  margin: 0 auto;
+  /*padding: 0 60px;*/
 }
 
 body{
   padding:0px;
   color:white;
   margin:0px;
-  height:100%;
+  height:98%;
   background-color: black;
   font-family: helvetica, arial, sans-serif;
+  z-index: 0:
 }
 
 a{
   color:white;
+  font:50px;
+  text-decoration: none;
+
 }
 
 
 .footer{
-  position: absolute;
-  left:32%;
-  top:100%;
+  height:80px;
+  padding:0;
+  position:fixed;
+  left:0;
+  right:0;
+  bottom:10%;
   color:white;
   text-align:center;
   }
 
 .please{
-  top:20%;
-  left:30%;
-  position:absolute;
+  background-color: white;
+  padding-left:20%;
+  max-width: 100%;
+  max-height: 100%;
 }
+
+
 <!--
 span is an inline attribute
 #blah are an id attributes font color
