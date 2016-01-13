@@ -11,42 +11,50 @@ h1{
 }
 
 h2{
-  position: relative;
-  top:0%;
-  right:0%;
-  height:auto;
   color:white;
   text-align: center;
   font-size: 40px;
 }
 
+h3{
+  position: relative;
+  font-size:30px;
+}
+
 p{
   font-size:25px;
-  text-align:center;
 }
 
 .nav{
-  height: 70px;
+  height:70px;
   background-color:gray;
   padding-top:5px;
   width:auto;
   font-size:40px;
-  z-index: 1;
 }
 
 .space {
-  margin-top:0%;
-  margin-left:0%;
-  margin-right:0%;
-  width:auto;
+  width:800;
+  margin: 0 auto;
   text-align: center;
   font-size:45px;
+  padding-top:15px;
 }
 
 .cool .space {
   width: 800px;
   margin: 0 auto;
   /*padding: 0 60px;*/
+}
+
+.about .space{
+  width:800px;
+  margin:0 auto;
+}
+
+.Mlist .space {
+  width: 800px;
+  margin: 0 auto;
 }
 
 body{
@@ -60,12 +68,15 @@ body{
 }
 
 a{
-  color:white;
-  font:50px;
   text-decoration: none;
-
+  font:50px;
+  color:white;
 }
 
+a:hover{
+  color:#ff9900;
+  font-size: 125%;
+  }
 
 .footer{
   height:80px;
@@ -85,6 +96,48 @@ a{
   max-height: 100%;
 }
 
+.movielist{
+  width:800;
+  height:auto;
+  }
+
+.movies .content{
+  height:500px;
+  width:1000;
+  margin:0;
+  font-size:25px;
+}
+
+
+.movies img{
+  float:left;
+  top:0;
+  border:3px solid gray;
+  margin-right:40px;
+  margin-left:40px;
+}
+
+.movies h2{
+  padding-right:18%;
+}
+
+ul{
+  list-style-type:none;
+  padding:0;
+  margin:0;
+}
+
+li{
+  float:left;
+  border-right:3px solid black;
+
+
+}
+
+li a{
+  display: inline-block;
+  padding:11px 15px;
+}
 
 <!--
 span is an inline attribute
