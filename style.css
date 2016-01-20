@@ -34,7 +34,9 @@ p{
 }
 
 .space {
+  position: relative;
   width:800;
+  height:100%;
   margin: 0 auto;
   text-align: center;
   font-size:45px;
@@ -50,11 +52,15 @@ p{
 .about .space{
   width:800px;
   margin:0 auto;
+  height:98%;
+  display: block;
 }
 
 .Mlist .space {
   width: 800px;
+  height:98%;
   margin: 0 auto;
+  display: block;
 }
 
 body{
@@ -68,26 +74,33 @@ body{
 }
 
 a{
+  color: black;
   text-decoration: none;
   font:50px;
-  color:white;
 }
 
 a:hover{
   color:#ff9900;
-  font-size: 125%;
+  font-size: 110%;
   }
 
 .footer{
-  height:80px;
-  padding:0;
-  position:fixed;
+  position:absolute;
+  bottom:0%;
+  right: 0;
   left:0;
-  right:0;
-  bottom:10%;
   color:white;
   text-align:center;
   }
+
+.mlist .footer{
+  position: relative;
+  bottom:0%;
+  right:0;
+  left:0;
+  color:white;
+  text-align:center;
+}
 
 .please{
   background-color: white;
@@ -97,20 +110,24 @@ a:hover{
 }
 
 .movielist{
+  position: relative;
+  height: 98%;
   width:800;
-  height:auto;
-  }
+  margin:0 auto;
+}
 
 .movies .content{
   height:500px;
-  width:1000;
-  margin:0;
+  width:1200px;
+  margin:0 auto;
   font-size:25px;
+  margin-bottom: 50px;
 }
 
 
 .movies img{
   float:left;
+  left:0;
   top:0;
   border:3px solid gray;
   margin-right:40px;
@@ -119,6 +136,10 @@ a:hover{
 
 .movies h2{
   padding-right:18%;
+}
+
+.movies p{
+  p
 }
 
 ul{
@@ -130,7 +151,6 @@ ul{
 li{
   float:left;
   border-right:3px solid black;
-
 
 }
 
