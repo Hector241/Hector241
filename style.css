@@ -43,6 +43,21 @@ p{
   padding-top:15px;
 }
 
+.container1{
+  position: relative;
+  height:100%;
+  padding-bottom:75px;
+}
+
+.card{
+  position: relative;
+}
+
+.card img{
+  position: absolute;
+  float:left;
+}
+
 .cool .space {
   width: 800px;
   margin: 0 auto;
@@ -56,7 +71,7 @@ p{
   display: block;
 }
 
-.Mlist .space {
+.content .space {
   width: 800px;
   height:98%;
   margin: 0 auto;
@@ -86,21 +101,13 @@ a:hover{
 
 .footer{
   position:absolute;
-  bottom:0%;
+  bottom:0;
   right: 0;
   left:0;
   color:white;
   text-align:center;
+  margin-top: 15px;
   }
-
-.mlist .footer{
-  position: relative;
-  bottom:0%;
-  right:0;
-  left:0;
-  color:white;
-  text-align:center;
-}
 
 .please{
   background-color: white;
@@ -111,13 +118,14 @@ a:hover{
 
 .movielist{
   position: relative;
-  height: 98%;
+  height: 100%;
   width:800;
   margin:0 auto;
 }
 
 .movies .content{
-  height:500px;
+  position:relative;
+  height:550px;
   width:1200px;
   margin:0 auto;
   font-size:25px;
